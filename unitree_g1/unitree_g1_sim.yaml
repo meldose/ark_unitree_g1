@@ -3,7 +3,7 @@ robots:
     config:
       urdf_path: "urdf/urdf/g1_description.urdf"
       class_dir: "../unitree_g1"
-      network_interface: "lo"     # (Optional) Network interface to use
+      network_interface: "eth0"   # (Optional) Network interface to use
       domain_id: 1              # DDS domain ID
       frequency: 240  # default is 240Hz
       control: "joint_space"
